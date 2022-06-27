@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div id="unsubmitted">
+
+  <span class="material-icons">
+    star
+    </span>
+
+  <h1>How did we do?</h1>
+
+  <p>Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+
+  <form>
+    <div class="grid">
+      <label>1
+        <input type="radio" name="one" id="one">
+      </label>
+      <label>2
+        <input type="radio" name="two" id="two">
+      </label>
+      <label>3
+        <input type="radio" name="three" id="three">
+      </label>
+      <label>4
+        <input type="radio" name="four" id="four">
+      </label>
+      <label>5
+        <input type="radio" name="five" id="five">
+      </label>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
+<div id="submitted">
+  <span>You selected <b id="answer"></b> out of 5</span>
+
+  <h2>Thank you!</h2>
+
+  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+</div>
+
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Andrea Bellver García</a>.
+  </footer>
+
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
